@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 15px 0;
+}
+
+
+/* Hero */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #1d2671, #c33764);
+
+    color: white;
+
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+/* Feature Cards */
+
+.feature-card {
+    height: 100%;
+
+    border: none;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Forms */
+
+.form-container {
+
+    max-width: 500px;
+
+    margin: 60px auto;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-control {
+
+    padding: 12px;
+
+    border-radius: 8px;
+}
+
+
+.form-control:focus {
+
+    box-shadow: none;
+
+    border-color: #1d2671;
+}
+
+
+/* Buttons */
+
+.btn {
+
+    border-radius: 8px;
+
+    padding: 10px 20px;
+
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+
+    transform: translateY(-2px);
+
+}
